@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id ="body">
+
+    <div class="column1">
+        <img src="https://cdn-icons-png.flaticon.com/512/5660/5660235.png"
+        id = "img"
+        />
+        <table id="getRoom">
+            <tr>
+            
+              <td class="tab">Назва катeгорії</td>
+              <td class="tab">Ціна</td>
+              <td class="tab">Посилання</td>
+            </tr>
+          </table>
+       
+        <h1 style="
+        width: 480px;"> Список користувачів, яких класифікуємо</h1>
+        <div class="Mid" style="
+        width: 500px;
+        height: 200px;">
+      
+        <table id="getViewApartament"
+        style="
+        width: 480px;">
+          <tr>
+            <td class="tab">id</td>
+            <td class="tab">Імя</td>
+            <td class="tab">Прізвище</td>
+            <td class="tab">Кількість разів відпочинку</td>
+          </tr>
+        </table>
+      </div> </div>
+               <div class="column">
+              <table>
+                <tr>
+                    <td class="tablea"><a href="index.html" class="link">Головна сторінка<a></td>
+                        <td >   </td>
+                  <td class="tablea"><a href="sendApartament.html" class="link">Розсилка за історією заселення апартаментів</a></td>
+                  <td >  </td>
+                    <td class="tablea"><a href="sendSpa.html" class="link">Розсилка за історією відвідування спа-салону</a></td>
+                </tr>
+              </table>
+
+              <div id="app">
+                <form id="filter">
+                  <div>
+                    <div>Стать</div>
+          
+                   <input id="sex1" name="Стать" type="checkbox" value="чоловік" />
+                    <label for="sex1">Чоловік</label>
+          
+                    <input id="sex2" name="Стать" type="checkbox" value="жінка" />
+                    <label for="sex2">Жінка</label>
+                  </div>
+          
+                  <div>
+                    <div>Витрачені кошти</div>
+          
+                    <input id="price1" name="ціна" type="checkbox" value="3500" />
+                    <label for="price1">3500</label>
+          
+                    <input id="price2" name="ціна" type="checkbox" value="5000" />
+                    <label for="price2">Mediorate</label>
+          
+                    <input id="price3" name="ціна" type="checkbox" value="8000" />
+                    <label for="price3">8000</label>
+                  </div>
+                  <div>
+                    <div>Категорія апартаментів</div>
+          
+                    <input id="price1" name="категоріяАпартаментів" type="checkbox" value="Бізнес" />
+                    <label for="price1">Бізнес</label>
+          
+                    <input id="price2" name="категоріяАпартаментів" type="checkbox" value="Полулюкс" />
+                    <label for="price2">Напів-люкс</label>
+          
+                    <input id="price3" name="категоріяАпартаментів" type="checkbox" value="Люкс" />
+                    <label for="price3">Люкс</label>
+                  </div>
+          
+                  <div>
+                    <div>Кількість разів відпочинку</div>
+          
+                    <input id="visits1" name="кількістьРазівВідпочинку" type="checkbox" value="1" />
+                    <label for="visits1">1</label>
+          
+                    <input id="visits2" name="кількістьРазівВідпочинку" type="checkbox" value="2" />
+                    <label for="visits2">2</label>
+          
+                    <input id="visits3" name="кількістьРазівВідпочинку" type="checkbox" value="5" />
+                    <label for="visits3">5</label>
+          
+                    <input id="visits4" name="кількістьРазівВідпочинку" type="checkbox" value="6" />
+                    <label for="visits4">>5</label>
+                  </div>
+          
+                  <div>
+                    <input type="submit" value="Get!" />
+                  </div>
+                </form>
+              </div>
+            </div>
+       
+            </div>
+         
+            <h1 style="
+            width: 480px; padding-left: 500px;"> Користувач</h1>
+            <div class="Mid" style="
+            width: 500px;
+            height: 100px;
+            padding-left: 0px;
+            margin-left: 600px;">
+          
+            <table id="getViewApartamentUser"
+            style="
+            width: 2000px;">
+              <tr>
+             
+   
+                <td id= "userview"class="tab">id</td>
+                <td id= "userview" class="tab">імя</td>
+                <td id= "userview" class="tab">прізвище</td>
+                <td id= "userview" class="tab">поБатькові</td>
+                <td id= "userview"class="tab">стать</td>
+                <td id= "userview"class="tab">датаНародження</td>
+                <td id= "userview"class="tab">номерТелефону</td>
+                <td id= "userview"class="tab">пошта</td>
+                <td id= "userview"class="tab">документ</td>
+                <td id= "userview"class="tab">номерБронювання</td>
+                <td id= "userview"class="tab"> ціна</td>
+                <td id= "userview"class="tab">датаБронювання</td>
+                <td id= "userview"class="tab">категоріяАпартаментів</td>
+                <td id= "userview"class="tab">заселився</td>
+                <td id= "userview"class="tab">виселення</td>
+                <td id= "userview"class="tab"> кількістьРазівВідпочинку</td>
+              </tr>
+            </table>
+          </div>
+          <textarea style="width: -160px;padding-left: 0px;height: 110px;width: 300px;margin-left: 500px">
+            Шановний клієнте, Ми хотіли б повідомити вас про нашу нову акцію, 
+            яка доступна в нашому готельно-курортному комплексі.  
+            Зараз ми пропонуємо спеціальну знижку  на відпочинок у нашому ГКК!
+            [link-apartament]
+          </textarea>
+          <select>
+            <option>1%</option>
+            <option>2,5%</option>
+            <option>5%</option>
+          </select>
+          <button> <a href="#" onclick="location.reload(); return false;">
+            Send
+          </a></button>
+        </div>
+
+    <script src="./services/apartamenthotel.js"></script>
+    <script src="./controllers/apartamentcontroller.js"></script>
+  </body>
+</html>
